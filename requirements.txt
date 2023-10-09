@@ -3,5 +3,4 @@ aiogram==2.25.1
 spotipy
 mysql-connector-python
 pymysql
-mysql-python
 mysqlclient
