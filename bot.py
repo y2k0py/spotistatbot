@@ -3,7 +3,6 @@ import json
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from aiogram import Bot, Dispatcher, types
-from aiogram.contrib.middlewares.logging import LoggingMiddleware
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, ParseMode, ReplyKeyboardMarkup, KeyboardButton, ReplyKeyboardRemove
 from aiogram.dispatcher.filters import Command
 from aiogram.dispatcher import FSMContext
