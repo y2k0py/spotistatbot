@@ -18,7 +18,7 @@ from sqlalchemy.orm import declarative_base
 
 
 # Create a database engine and session
-engine = create_engine('postgresql://postgres:56RniQjprgfAtZFZw1pG@containers-us-west-190.railway.app:7312/railway')
+engine = create_engine('postgresql://postgres:s0YkznQhVjFDUkMKRA0O@containers-us-west-93.railway.app:6780/railway')
 Session = sessionmaker(bind=engine)
 session = Session()
 Base = declarative_base()
