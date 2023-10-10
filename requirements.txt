@@ -1,6 +1,4 @@
-sqlalchemy
+SQLAlchemy==2.0.21
 aiogram==2.25.1
-spotipy
-mysql-connector-python
-pymysql
-mysqlclient
+spotipy==2.22.1
+psycopg2==2.9.9
